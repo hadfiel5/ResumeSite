@@ -1,0 +1,53 @@
+.masthead-image {
+    background-image: url("./InDesert.JPG");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.landing-strip{
+    background-image: url("./Bogota.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    min-width: 120px;
+    position: relative;
+}
+
+.hidden-image{
+    visibility: hidden;
+}
+
+.body-container{
+    padding: 2% 1% 2% 1%;
+}
+
+.with-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.resume-images{
+    max-width: 300px;
+    min-width: 120px;
+}
+
+.resume-img-thumbnail{
+    padding: 1%;
+}
+
+.separator-margin{
+    margin: 0 5%;
+}
+
+.bg-sand{
+    background-color: khaki;
+}
+
+.spacer{
+    width: 20%;
+}
+
+.overlay-plane{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

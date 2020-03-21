@@ -1,0 +1,64 @@
+{% extends 'menubarpage.html' %}
+{% load static %}
+
+{% block extrastyles %}
+<link rel="stylesheet" type="text/css" href="{% static 'resumeandabout/resumepagestyle.css' %}" crossorigin="anonymous">
+{% endblock %}
+
+{% block title %}Brandon Hadfield{% endblock %}
+
+{% block body %}
+<div id="masthead" class="h-75 masthead-image">    
+</div>
+
+<div class="body-container">
+    <div class="rounded">
+        <div class="d-flex justify-content-center">
+            <h3 class="display-4 text-center"><small class="text-muted">I am</small> Brandon Hadfield</h3>
+        </div>
+        <div class="d-flex justify-content-end">
+            <div class="lead text-right">Take a look around to learn about what I've done and where I've gone </div>
+        </div>
+    </div>
+</div>
+
+<hr class="separator-margin"/>
+
+<div class="body-container w-100">
+    <div class="d-flex justify-content-between px-4">
+        <div class="spacer"></div>
+        <div class="lead my-auto text-right pr-5">I've been involved at some cool places that I'm proud of, take a look around my <a>Resume</a> page to learn a little more</div>
+        <div class="my-auto">
+            <div class="resume-images bg-white">
+                <img class="img-fluid resume-img-thumbnail" src="{% static 'resumeandabout/UOFT.png' %}"/>
+                <div class="d-flex">
+                    <img class="img-fluid w-50 resume-img-thumbnail" src="{% static 'resumeandabout/NulogyLogo.jpg' %}"/>
+                    <img class="img-fluid w-50 resume-img-thumbnail" src="{% static 'resumeandabout/RWDILogo.jpg' %}"/>
+                </div>            
+            </div>
+        </div>  
+    </div>
+</div>
+
+<hr class="separator-margin"/>
+
+<div class="body-container w-100">
+    <div class="d-flex justify-content-between px-4">
+        <div class="landing-strip w-25 my-auto">
+            <img src="{% static 'resumeandabout/Bogota.jpg' %}" class="hidden-image w-100"/>
+            <img src="{% static 'resumeandabout/AirplaneClipart.png' %}" 
+                data-aos="fade-right" 
+                data-aos-easing="ease-in-linear"
+                data-aos-duration="1000" 
+                class="w-100 overlay-plane"/>
+        </div>
+        <div class="lead my-auto text-left pl-5">Between work and play, travelling is one of my favourite things. Take a look at my <a>Travel</a> page to learn a little more.</div>
+        <div class="spacer"></div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extrascripts %}
+<script src="{% static 'resumeandabout/homepagescript.js' %}"></script>
+{% endblock %}
